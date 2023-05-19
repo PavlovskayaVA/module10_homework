@@ -1,0 +1,9 @@
+let myMap = new Map();
+myMap.set('color','blue');
+myMap.set('number',3);
+myMap.set('animal','fox');
+
+myMap.forEach((value, key, map) => {
+  console.log(`Ключ X - ${key}, значение Y - ${value}`); // огурец: 500 и так далее
+});
+
