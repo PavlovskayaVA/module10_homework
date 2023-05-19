@@ -1,0 +1,13 @@
+const generateArray = (length, max) => 
+(
+  [...new Array(length)]
+    .map(() => Math.round(Math.random() * max))
+);
+const numbers = generateArray(10, 40);
+console.log(`Произвольный массив: ${numbers}`);
+console.log(`Количество элементов массива: ${numbers.length}`);
+console.log('Элементы массива:');
+for (i=0;i<numbers.length;i++)
+  {
+     console.log(`Элемент ${i}: ${numbers[i]}`);
+  }
