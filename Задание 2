@@ -1,0 +1,31 @@
+let x='fox';
+//let x=2;
+//let x=1;
+//let x=0;
+//let x=false;
+//let x=true;
+//let x=NaN;
+//let x=undefined;
+
+if(typeof x === "number")
+  {
+    console.log(`${x} - число`);
+  }
+
+else if(typeof x == "string") 
+  {
+    console.log(`${x} - строка`);
+  }
+
+else if(typeof x == "boolean")
+  {
+    
+    console.log(`${x} - логичсекий тип`);
+  }
+
+else 
+  {
+    console.log('Тип x не определен');
+  }
+
+console.log(typeof(x));
